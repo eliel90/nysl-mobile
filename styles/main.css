@@ -1,0 +1,64 @@
+
+
+nav{margin: 0 auto; box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75); text-align: center}
+section, footer{max-width: 1024px; margin:0 auto; text-align: center}
+#navBarTitleContainer{display: inline-block; margin: 0 auto; position:relative; left:-25px;}
+
+#homeTitle{font-size: 2rem; margin-top: 1rem}
+
+#filterList{float: right}
+#filterList legend {font-size: 1.2rem}
+
+/* PARA MANTENER EL FOOTER PEGADO AL PIE DE LA PAGINA CUANDO EL ACORDION ESTA CERRADO (POCO CONTENIDO)*/
+#pageContainer{position:relative; min-height:100vh}
+#contentContainer{padding-bottom: 6rem;}
+footer {
+    position: absolute;
+    margin:0 auto;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;            /* Footer height */
+  }
+
+  .darkBlue{background-color: darkblue}
+
+
+/* OVERLAY BOX */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
